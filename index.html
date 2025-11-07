@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contando!</title>
+</head>
+<body>
+    <header>
+        <h1>Contagem</h1>
+    </header>
+    <main id="container">
+        <div id="inputs">
+            <label for="tinicio">Início</label>
+            <input type="number" name="tinicio" id="tinicio">
+            <label for="tfim">Fim</label>
+            <input type="number" name="tfim" id="tfim">
+            <label for="tpasso">Passo</label>
+            <input type="number" name="tpasso" id="tpasso">
+            <input type="submit" value="Calcular" onclick="contador()">
+        </div>
+        <div id="res">
+             
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <a href="https://github.com/edocamp98" target="_blank">edocamp98</a></p>
+    </footer>
+</body>
+<script src="contador.js"></script>
+</html>

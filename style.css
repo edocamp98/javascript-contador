@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+
+}
+header{
+    margin:20px 0px;
+    text-align: center;
+    font-style: italic;
+}
+
+
+main{
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: space-between;
+    width: 40vw;
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px gray;
+
+}
+
+#inputs{
+
+    margin-top: 5px;
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    padding: 20px;
+}
+
+input[type="number"]{
+    font-size: large;
+    text-align: center;
+    padding: 3px;
+    margin: 5px;
+}    
+
+input[type="submit"]{
+    align-self: center;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+}   
+
+label{
+    color: white;
+    margin-left: 5px;
+}
+
+#res{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.dPq9L4YazsxRLLVE9YgsUwHaFm%3Fpid%3DApi&f=1&ipt=477b41e3c6c31d09e737bb779a12b901e7969c0cd0ae15ffe5bed90efc3cf72c);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: left;
+    padding: 25px;
+    background-color: rgb(237, 237, 235);
+
+}
+
+footer{
+    margin-top: 5px;
+    font-size: .9em;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
