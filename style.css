@@ -45,6 +45,7 @@ input[type="number"]{
 }    
 
 input[type="submit"]{
+    margin-top: 15px;
     align-self: center;
     padding: 10px;
     border: 0px;
